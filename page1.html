@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            background-image: url(https://wallpapercave.com/wp/wp10055132.jpg);
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .category-row {
+            margin-bottom: 30px;
+        }
+
+        .category-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: red; /* Change the color here */
+        }
+
+        .book-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .book {
+            width: 200px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .book img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .filter-input {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Welcome to the Bookstore</h1>
+
+<div class="category-row">
+    <div class="filter-input">
+        <input type="text" id="book-filter" placeholder="Search by book name">
+    </div>
+    <div class="category-title">Fantasy</div>
+    
+    <div class="book-container">
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/51Cn94GwpoL.jpg" alt="Fantasy Book 1">
+            <div class="availability available">A Wizard Of Earthsea</div>
+        </div>
+        <div class="book">
+            <img src="https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/509/9780006479888.jpg" alt="Fantasy Book 2">
+            <div class="availability unavailable">A Game Of Thrones</div>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/5105MGbPGEL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg" alt="Fantasy Book 3">
+            <div class="availability available">The Last Unicorn</div>
+        </div>
+        <div class="book">
+            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2016%2F09%2Fhpchamber.jpg" alt="Fantasy Book 4">
+            <div class="availability unavailable">Harry Potter and the Chamber of Secrets</div>
+        </div>
+    </div>
+</div>
+<div class="category-row">
+    <div class="category-title">Crime</div>
+    <div class="book-container">
+        <div class="book">
+            <img src="https://ik.imagekit.io/panmac/tr:f-auto,di-placeholder_portrait_aMjPtD9YZ.jpg,w-270/edition/9781529054064.jpg" alt="Crime Book 1">
+            <div class="availability available">Cast a cold eye</div>
+        </div>
+        <div class="book">
+            <img src="https://ik.imagekit.io/panmac/tr:f-auto,di-placeholder_portrait_aMjPtD9YZ.jpg,w-270/edition/9781529091687.jpg" alt="Crime Book 2">
+            <div class="availability unavailable">the murder wall</div>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/5105MGbPGEL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg" alt="Fantasy Book 3">
+            <div class="availability available">Date with evil</div>
+        </div>
+        <div class="book">
+            <img src="https://ik.imagekit.io/panmac/tr:f-auto,di-placeholder_portrait_aMjPtD9YZ.jpg,w-270/edition/9781529095401.jpg" alt="Crime Book 4">
+            <div class="availability unavailable">other women</div>
+        </div>
+    </div>
+</div>
+<div class="category-row">
+    <div class="category-title">Tamil Literature</div>
+    <div class="book-container">
+        <div class="book">
+            <img src="https://cdn.shopify.com/s/files/1/1192/7528/products/silapathikaram-18412387664025.jpg?v=1621872890" alt="Tamil literature Book 1">
+            <div class="availability available">Silapatthikaram</div>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/51HrlKE7xDL.jpg" alt="Tamil Literature Book 2">
+            <div class="availability unavailable">Tamil Varalaru</div>
+        </div>
+        <div class="book">
+            <img src="https://kbimages1-a.akamaihd.net/af51647e-1896-4dcf-b130-6329aab5f35a/353/569/90/False/thirukkural.jpg" alt="Tamil Literature Book 3">
+            <div class="availability available">Thirukurral</div>
+        </div>
+        <div class="book">
+            <img src="https://1.bp.blogspot.com/-evegjfRbhbg/XnyxAsKGSBI/AAAAAAAADdU/WO-1ND0VpaQON28kS-Ab-15Ff0aS7AnDQCLcBGAsYHQ/s320/%25E0%25AE%2585%25E0%25AE%2595%25E0%25AF%258D%25E0%25AE%25A9%25E0%25AE%25BF%25E0%25AE%259A%25E0%25AF%258D%25E0%25AE%259A%25E0%25AE%25BF%25E0%25AE%25B1%25E0%25AE%2595%25E0%25AF%2581%25E0%25AE%2595%25E0%25AE%25B3%25E0%25AF%258D%2B-%2B%25E0%25AE%2585%25E0%25AE%25AA%25E0%25AF%258D%25E0%25AE%25A4%25E0%25AF%2581%25E0%25AE%25B2%25E0%25AF%258D%25E0%25AE%2595%25E0%25AE%25B2%25E0%25AE%25BE%25E0%25AE%25AE%25E0%25AF%258D-1.jpg" alt="Tamil Literature Book 4">
+            <div class="availability unavailable">Agni Siragugal</div>
+        </div>
+    </div>
+</div>
+<script>
+    // Book count
+    const bookCount = document.querySelectorAll('.book').length;
+    document.body.insertAdjacentHTML('beforeend', `<div class="book-count">Total books: ${bookCount}</div>`);
+
+    // Book filtering
+    const bookFilterInput = document.getElementById('book-filter');
+    bookFilterInput.addEventListener('input', () => {
+        const searchTerm = bookFilterInput.value.toLowerCase();
+        const books = document.querySelectorAll('.book');
+
+        books.forEach((book) => {
+            const bookTitle = book.querySelector('.availability').textContent.toLowerCase();
+
+            if (bookTitle.includes(searchTerm)) {
+                book.style.display = 'block';
+            } else {
+                book.style.display = 'none';
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
